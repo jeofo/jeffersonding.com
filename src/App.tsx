@@ -2,29 +2,29 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div className="bg-white text-black p-5 mx-auto w-full">
+    <div className="bg-white text-black p-5 mx-auto w-full max-w-full">
       <div className="text-start mb-2 text-4xl w-full">
-        <h1>
-          jefferson <b>ding</b>
+        <h1 className="md:flex">
+          <span>jefferson</span> <b className="md:ml-2 block md:inline">ding</b>
         </h1>
       </div>
-      <div className="flex gap-5 w-full">
-        <div>
-          <h2>
+      <div className="flex flex-col lg:flex-row gap-5 w-full">
+        <div className="w-full">
+          <h2 className="break-words">
             <b>me</b> AT <b>jdi</b> DOT <b>ng</b>
           </h2>
 
           <div className="my-4">
             <h2 className="text-2xl font-bold">current</h2>
             <ul>
-              <li>
+              <li className="break-words">
                 founder <b>@</b> jaimy.ai
               </li>
-              <li>
+              <li className="break-words">
                 b.s.e in computer engineering <b>@</b> university of
                 pennsylvania c.o. 2027
               </li>
-              <li>
+              <li className="break-words">
                 b.s in economics, conc. finance <b>@</b> wharton c.o. 2027
               </li>
             </ul>
@@ -33,16 +33,16 @@ const App = () => {
           <div className="my-4">
             <h2 className="text-2xl font-bold">prev</h2>
             <ul>
-              <li>
+              <li className="break-words">
                 software <b>@</b> shades.news
               </li>
-              <li>
+              <li className="break-words">
                 backend <b>@</b> penn labs
               </li>
-              <li>
+              <li className="break-words">
                 software <b>@</b> datagrade
               </li>
-              <li>
+              <li className="break-words">
                 cybersecurity intern <b>@</b> mydware inc.
               </li>
             </ul>
@@ -51,13 +51,13 @@ const App = () => {
           <div className="my-4">
             <h2 className="text-2xl font-bold">links</h2>
             <ul>
-              <li>
+              <li className="break-words">
                 <a href="https://github.com/jeofo">github</a>
               </li>
-              <li>
+              <li className="break-words">
                 <a href="https://linkedin.com/in/dingjefferson">linkedin</a>
               </li>
-              <li>
+              <li className="break-words">
                 <a href="https://jeofo.substack.com/">substack</a>
               </li>
             </ul>
@@ -65,7 +65,7 @@ const App = () => {
 
           <div className="my-4">
             <h2 className="text-2xl font-bold">contact</h2>
-            <div className="bg-gray-100 w-full p-4 mt-2 rounded font-mono text-xs whitespace-pre">
+            <div className="bg-gray-100 w-full p-4 mt-2 rounded font-mono text-xs whitespace-pre-wrap overflow-x-auto break-words">
               {`-----BEGIN PGP PUBLIC KEY BLOCK-----
 mDMEZ66uqRYJKwYBBAHaRw8BAQdA3rO6UOG2a5pUXD4rc5/48R26YpcMsXKyZD4N
 vRwHqRu0J0plZmZlcnNvbiBEaW5nIDxtYWlsQGplZmZlcnNvbmRpbmcuY29tPoiW
@@ -92,13 +92,15 @@ bWq5hD6AzaO3FQEA4trMy8SLo8JyRACY59advi0lF2275xg+fTRle4EOI9QA/1bq
 
       {/* Footer */}
       <div className="border-t border-black mt-10 pt-5 text-center">
-        <p>© {new Date().getFullYear()} jefferson ding. all rights reserved.</p>
-        <p className="text-xs">
+        <p className="break-words">
+          © {new Date().getFullYear()} jefferson ding. all rights reserved.
+        </p>
+        <p className="text-xs break-words">
           built with{" "}
           <span className="text-2xl relative bottom-[-2.8px]">🎔</span> using
           typescript
         </p>
-        <p className="text-xs text-center">
+        <p className="text-xs text-center break-words">
           last updated: {new Date(1750505370000).toLocaleDateString()}
         </p>
       </div>
