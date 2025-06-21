@@ -2,14 +2,14 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div className="bg-white text-black p-5 mx-auto w-full max-w-full">
-      <div className="text-start mb-2 text-4xl w-full">
+    <div className="bg-white text-black p-5 mx-auto  max-">
+      <div className="text-start mb-2 text-4xl ">
         <h1 className="md:flex">
           <span>jefferson</span> <b className="md:ml-2 block md:inline">ding</b>
         </h1>
       </div>
-      <div className="flex flex-col lg:flex-row gap-5 w-full">
-        <div className="w-full">
+      <div className="flex flex-col lg:flex-row gap-5 ">
+        <div className="">
           <h2 className="break-words">
             <b>me</b> AT <b>jdi</b> DOT <b>ng</b>
           </h2>
@@ -65,7 +65,7 @@ const App = () => {
 
           <div className="my-4">
             <h2 className="text-2xl font-bold">contact</h2>
-            <div className="bg-gray-100 w-full p-4 mt-2 rounded font-mono text-xs whitespace-pre-wrap overflow-x-auto break-words">
+            <div className="bg-gray-100 w-full p-4 mt-2 rounded font-mono text-xs whitespace-pre-wrap overflow-x-auto break-words max-w-fit">
               {`-----BEGIN PGP PUBLIC KEY BLOCK-----
 mDMEZ66uqRYJKwYBBAHaRw8BAQdA3rO6UOG2a5pUXD4rc5/48R26YpcMsXKyZD4N
 vRwHqRu0J0plZmZlcnNvbiBEaW5nIDxtYWlsQGplZmZlcnNvbmRpbmcuY29tPoiW
