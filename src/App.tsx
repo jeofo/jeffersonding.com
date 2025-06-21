@@ -3,191 +3,89 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div className="bg-white text-black p-5 mx-auto">
-      <div className="text-start mb-2 text-4xl">
+    <div className="bg-white text-black p-5 mx-auto w-full">
+      <div className="text-start mb-2 text-4xl w-full">
         <h1>
           jefferson <b>ding</b>
         </h1>
       </div>
-      <div className="flex gap-5">
-        <div className="flex-1">
-          <div>
-            <h2>
-              <b>me</b> AT <b>jeffdi</b> DOT <b>ng</b>
-            </h2>
-            <div className="my-8">
-              <h3 className="text-2xl font-bold mt-8">currently</h3>
-              <ul>
-                <li>Software Development</li>
-                <li>Web Design</li>
-                <li>Problem Solving</li>
-                <li>Learning New Technologies</li>
-              </ul>
-            </div>
+      <div className="flex gap-5 w-full">
+        <div>
+          <h2>
+            <b>me</b> AT <b>jeffdi</b> DOT <b>ng</b>
+          </h2>
+
+          <div className="my-4">
+            <h2 className="text-2xl font-bold">current</h2>
+            <ul>
+              <li>
+                founder <b>@</b> jaimy.ai
+              </li>
+              <li>
+                b.s.e in computer engineering <b>@</b> university of
+                pennsylvania c.o. 2027
+              </li>
+              <li>
+                b.s in economics, conc. finance <b>@</b> wharton c.o. 2027
+              </li>
+            </ul>
           </div>
 
-          <div>
-            <h2>About Me</h2>
-            <p>
-              Hi there! I'm Jefferson Ding, a passionate developer who loves
-              creating things that make a difference.
-            </p>
-            <div className="border border-black p-2.5 my-2.5">
-              <h3>🎓 Education</h3>
-              <p>[Placeholder: Your education details here]</p>
-            </div>
-            <div className="border border-black p-2.5 my-2.5">
-              <h3>💼 Experience</h3>
-              <p>[Placeholder: Your work experience here]</p>
-            </div>
-            <div className="border border-black p-2.5 my-2.5">
-              <h3>🛠️ Skills</h3>
-              <p>[Placeholder: Your technical skills here]</p>
-            </div>
+          <div className="my-4">
+            <h2 className="text-2xl font-bold">prev</h2>
+            <ul>
+              <li>
+                software <b>@</b> shades.news
+              </li>
+              <li>
+                backend <b>@</b> penn labs
+              </li>
+              <li>
+                software <b>@</b> datagrade
+              </li>
+              <li>
+                cybersecurity intern <b>@</b> mydware inc.
+              </li>
+            </ul>
           </div>
 
-          <div>
-            <h2>My Projects</h2>
-            <div className="border border-black p-2.5 my-2.5">
-              <h3>🚀 Project 1</h3>
-              <p>[Placeholder: Project description]</p>
-              <p>
-                <strong>Technologies:</strong> React, TypeScript
-              </p>
-            </div>
-            <div className="border border-black p-2.5 my-2.5">
-              <h3>🎮 Project 2</h3>
-              <p>[Placeholder: Project description]</p>
-              <p>
-                <strong>Technologies:</strong> Node.js, JavaScript
-              </p>
-            </div>
-            <div className="border border-black p-2.5 my-2.5">
-              <h3>📱 Project 3</h3>
-              <p>[Placeholder: Project description]</p>
-              <p>
-                <strong>Technologies:</strong> Python, Django
-              </p>
-            </div>
+          <div className="my-4">
+            <h2 className="text-2xl font-bold">links</h2>
+            <ul>
+              <li>
+                <a href="https://github.com/jeofo">github</a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/dingjefferson">linkedin</a>
+              </li>
+              <li>
+                <a href="https://jeofo.substack.com/">substack</a>
+              </li>
+            </ul>
           </div>
 
-          <div>
-            <h2>Resume</h2>
-            <div className="text-center my-5">
-              <button className="border border-black px-5 py-2.5 bg-white cursor-pointer">
-                📄 Download PDF Resume
-              </button>
-            </div>
-            <div className="border border-black p-2.5 my-2.5">
-              <h3>Professional Summary</h3>
-              <p>[Placeholder: Your professional summary here]</p>
-            </div>
-            <div className="border border-black p-2.5 my-2.5">
-              <h3>Work Experience</h3>
-              <p>[Placeholder: Your work experience details]</p>
-            </div>
-            <div className="border border-black p-2.5 my-2.5">
-              <h3>Education</h3>
-              <p>[Placeholder: Your educational background]</p>
-            </div>
-          </div>
-
-          <div>
-            <h2>Contact Me</h2>
-            <div className="flex gap-5 mb-5">
-              <div className="border border-black p-2.5 flex-1">
-                <h3>📧 Email</h3>
-                <p>[Placeholder: your.email@example.com]</p>
-              </div>
-              <div className="border border-black p-2.5 flex-1">
-                <h3>📱 Phone</h3>
-                <p>[Placeholder: +1 (555) 123-4567]</p>
-              </div>
-            </div>
-            <div className="border border-black p-2.5">
-              <h3>Send me a message</h3>
-              <form>
-                <div className="mb-2.5">
-                  <label>Name: </label>
-                  <br />
-                  <input
-                    type="text"
-                    className="w-full p-1 border border-black font-mono"
-                    placeholder="Your name"
-                  />
-                </div>
-                <div className="mb-2.5">
-                  <label>Email: </label>
-                  <br />
-                  <input
-                    type="email"
-                    className="w-full p-1 border border-black font-mono"
-                    placeholder="your.email@example.com"
-                  />
-                </div>
-                <div className="mb-2.5">
-                  <label>Message: </label>
-                  <br />
-                  <textarea
-                    rows={4}
-                    className="w-full p-1 border border-black font-mono"
-                    placeholder="Your message here..."
-                  ></textarea>
-                </div>
-                <button
-                  type="submit"
-                  className="border border-black px-5 py-2.5 bg-white cursor-pointer"
-                >
-                  Send Message
-                </button>
-              </form>
-            </div>
-          </div>
-
-          <div>
-            <h2>Guestbook</h2>
-            <div className="border border-black p-2.5 mb-5 bg-yellow-50">
-              <p>
-                <strong>Note:</strong> This is a classic website feature! Sign
-                my guestbook to let me know you visited.
-              </p>
-            </div>
-            <div className="border border-black p-2.5 mb-5">
-              <h3>Leave a message</h3>
-              <form>
-                <div className="mb-2.5">
-                  <label>Name: </label>
-                  <br />
-                  <input
-                    type="text"
-                    className="w-full p-1 border border-black font-mono"
-                    placeholder="Your name"
-                  />
-                </div>
-                <div className="mb-2.5">
-                  <label>Message: </label>
-                  <br />
-                  <textarea
-                    rows={3}
-                    className="w-full p-1 border border-black font-mono"
-                    placeholder="Leave a message in my guestbook..."
-                  ></textarea>
-                </div>
-                <button
-                  type="submit"
-                  className="border border-black px-5 py-2.5 bg-white cursor-pointer"
-                >
-                  Sign Guestbook
-                </button>
-              </form>
-            </div>
-            <div>
-              <h3>Recent Messages</h3>
-              <div className="border border-black p-2.5">
-                <p className="text-xs">
-                  [No messages yet - be the first to sign!]
-                </p>
-              </div>
+          <div className="my-4">
+            <h2 className="text-2xl font-bold">contact</h2>
+            <div className="bg-gray-100 w-full p-4 mt-2 rounded font-mono text-xs whitespace-pre">
+              {`-----BEGIN PGP PUBLIC KEY BLOCK-----
+mDMEZ66uqRYJKwYBBAHaRw8BAQdA3rO6UOG2a5pUXD4rc5/48R26YpcMsXKyZD4N
+vRwHqRu0J0plZmZlcnNvbiBEaW5nIDxtYWlsQGplZmZlcnNvbmRpbmcuY29tPoiW
+BBMWCgA+AhsDBQsJCAcCAiICBhUKCQgLAgQWAgMBAh4HAheAFiEEDNRUlE2WXPfA
+zY3SbWq5hD6AzaMFAmeurxcCGQEACgkQbWq5hD6AzaM82wD6A/cHzEWao3h1GXya
+OMBODr3ZmTNIc5TXCj7mpsmuKuYBAIu45+hMQGC1+WKggWejPbO3avJWe1QbNJes
+m9vgE9sAtCVKZWZmZXJzb24gRGluZyA8dHlkaW5nMjAwNEBnbWFpbC5jb20+iJAE
+ExYIADgWIQQM1FSUTZZc98DNjdJtarmEPoDNowUCZ66vFwIbAwULCQgHAgYVCgkI
+CwIEFgIDAQIeAQIXgAAKCRBtarmEPoDNo//GAP9TvWhuVB4xvRsHI9eV+fiPtRjf
+M0xgwGSTZOqHOnmQbwD8DZqyPAIZE0DLHMIi9MMEfLjxhsS2phoFR8kmJCgXJQO0
+J0plZmZlcnNvbiBEaW5nIDx0eWRpbmcyMDA0QG91dGxvb2suY29tPoiQBBMWCAA4
+FiEEDNRUlE2WXPfAzY3SbWq5hD6AzaMFAmeuryICGwMFCwkIBwIGFQoJCAsCBBYC
+AwECHgECF4AACgkQbWq5hD6AzaOUbAD/ct2Gx2FcXnw+azknXmE0ZAtBcdF5bzux
+05tJZTCsvZEA+wai4I2tBBy1+Ja1d6utrUQK6j4M7cw3uBsTWPEd2gQBuDgEZ66u
+qRIKKwYBBAGXVQEFAQEHQPus6EaeW/xJ9ES+I75+eiGZ4HsAwLZzjW+irN49yvc2
+AwEIB4h4BBgWCgAgFiEEDNRUlE2WXPfAzY3SbWq5hD6AzaMFAmeurqkCGwwACgkQ
+bWq5hD6AzaO3FQEA4trMy8SLo8JyRACY59advi0lF2275xg+fTRle4EOI9QA/1bq
+/KuULZ7oHkaU8DP1Z7eVYSzHT6t3paLU9qd80/oM=M15y
+-----END PGP PUBLIC KEY BLOCK-----`}
             </div>
           </div>
         </div>

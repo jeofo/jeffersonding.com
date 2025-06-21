@@ -71,7 +71,7 @@
 /* Bold weight (700) */
 @font-face {
   font-family: 'Computer Modern';
-  src: url('./assets/fonts/cmu/cmunbl.ttf') format('truetype');
+  src: url('./assets/fonts/cmu/cmunbx.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -121,4 +121,5 @@
 
 :root {
   font-family: 'Computer Modern', 'Times New Roman', Times, serif;
+  width: 100%;
 }
