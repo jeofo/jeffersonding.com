@@ -12,7 +12,7 @@ const App = () => {
       <div className="flex gap-5 w-full">
         <div>
           <h2>
-            <b>me</b> AT <b>jeffdi</b> DOT <b>ng</b>
+            <b>me</b> AT <b>jdi</b> DOT <b>ng</b>
           </h2>
 
           <div className="my-4">
