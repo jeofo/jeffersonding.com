@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+/* Light weights (100-300) */
+@font-face {
+  font-family: 'Computer Modern';
+  src: url('./assets/fonts/cmu/cmunss.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Computer Modern';
+  src: url('./assets/fonts/cmu/cmunss.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Computer Modern';
+  src: url('./assets/fonts/cmu/cmunss.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Computer Modern';
+  src: url('./assets/fonts/cmu/cmunsl.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Normal weight (400) */
+@font-face {
+  font-family: 'Computer Modern';
+  src: url('./assets/fonts/cmu/cmunrm.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Computer Modern';
+  src: url('./assets/fonts/cmu/cmunci.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Medium weight (500) */
+@font-face {
+  font-family: 'Computer Modern';
+  src: url('./assets/fonts/cmu/cmunssdc.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Semi-bold weight (600) */
+@font-face {
+  font-family: 'Computer Modern';
+  src: url('./assets/fonts/cmu/cmunssdc.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold weight (700) */
+@font-face {
+  font-family: 'Computer Modern';
+  src: url('./assets/fonts/cmu/cmunbl.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Computer Modern';
+  src: url('./assets/fonts/cmu/cmunbi.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Extra bold weight (800) */
+@font-face {
+  font-family: 'Computer Modern';
+  src: url('./assets/fonts/cmu/cmunbx.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Computer Modern';
+  src: url('./assets/fonts/cmu/cmunobx.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Black weight (900) */
+@font-face {
+  font-family: 'Computer Modern';
+  src: url('./assets/fonts/cmu/cmunbx.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Computer Modern';
+  src: url('./assets/fonts/cmu/cmunobx.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  font-family: 'Computer Modern', 'Times New Roman', Times, serif;
+}
