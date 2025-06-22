@@ -95,11 +95,6 @@ bWq5hD6AzaO3FQEA4trMy8SLo8JyRACY59advi0lF2275xg+fTRle4EOI9QA/1bq
         <p className="break-words">
           © {new Date().getFullYear()} jefferson ding. all rights reserved.
         </p>
-        <p className="text-xs break-words">
-          built with{" "}
-          <span className="text-2xl relative bottom-[-2.8px]">🎔</span> using
-          typescript
-        </p>
         <p className="text-xs text-center break-words">
           last updated: {new Date(1750505370000).toLocaleDateString()}
         </p>
