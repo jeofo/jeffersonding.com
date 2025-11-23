@@ -18,9 +18,6 @@ const App = () => {
             <h2 className="text-2xl font-bold">current</h2>
             <ul>
               <li className="break-words">
-                product <b>@</b> clado.ai
-              </li>
-              <li className="break-words">
                 b.s.e in computer engineering <b>@</b> university of
                 pennsylvania c.o. 2027
               </li>
@@ -33,6 +30,9 @@ const App = () => {
           <div className="my-4">
             <h2 className="text-2xl font-bold">prev</h2>
             <ul>
+              <li className="break-words">
+                product <b>@</b> clado.ai
+              </li>
               <li className="break-words">
                 founder <b>@</b> jaimy.ai, aqc. by clado.ai
               </li>
