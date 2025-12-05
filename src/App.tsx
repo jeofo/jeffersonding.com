@@ -15,6 +15,26 @@ const App = () => {
           </h2>
 
           <div className="my-4">
+            <h2 className="text-2xl font-bold">links</h2>
+            <ul>
+              <li className="break-words">
+                <a href="https://github.com/jeofo">github</a>
+              </li>
+              <li className="break-words">
+                <a href="https://linkedin.com/in/dingjefferson">linkedin</a>
+              </li>
+              <li className="break-words">
+                <a href="https://jeofo.substack.com/">substack</a>
+              </li>
+              <li className="break-words">
+                <a href="https://councils.forbes.com/profile/Jefferson-Ding-Chief-Product-Officer-Clado-AI/5a86013a-f8a3-4c5e-887a-edc9f498a48e">
+                  forbes
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div className="my-4">
             <h2 className="text-2xl font-bold">current</h2>
             <ul>
               <li className="break-words">
@@ -47,21 +67,6 @@ const App = () => {
               </li>
               <li className="break-words">
                 cybersecurity intern <b>@</b> mydware inc.
-              </li>
-            </ul>
-          </div>
-
-          <div className="my-4">
-            <h2 className="text-2xl font-bold">links</h2>
-            <ul>
-              <li className="break-words">
-                <a href="https://github.com/jeofo">github</a>
-              </li>
-              <li className="break-words">
-                <a href="https://linkedin.com/in/dingjefferson">linkedin</a>
-              </li>
-              <li className="break-words">
-                <a href="https://jeofo.substack.com/">substack</a>
               </li>
             </ul>
           </div>
