@@ -37,7 +37,7 @@ const App = () => {
 					<div className="my-4">
 						<ul>
 							<li className="wrap-break-words">
-								tpu firmware <b>@</b> google
+								asic firmware <b>@</b> google
 							</li>
 							<li className="wrap-break-words">
 								b.s.e in computer engineering <b>@</b> university of
